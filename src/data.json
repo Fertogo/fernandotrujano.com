@@ -8,6 +8,27 @@
         //Email annoyer
     "projects" : [
       {
+        "year" : "2017",
+        "entries" : [
+            {
+                "title" : "Cryptographically Secure voting for the MIT Community",
+                "description" : "Most voting systems at MIT lack the basic security properties of a desirable voting system such as privacy and verifiability. I have implemented a cryptographically secure voting system tailored to the MIT community that provides, among other things, full voter anonymity and individual and third party election verifiability. This system is secure against internal and external malicious parties. No party, including the election organizer will be able to falsely modify the results of the election.",
+                "languages" : ["Security", "Voting", "Node.js"],
+                "imageUrl" : "img/mitvoting.png",
+                "links" : [
+                    {
+                        "name" : "Paper",
+                        "url" : "docs/mitvoting.pdf"
+                    },
+                    {
+                        "name" : "Source",
+                        "url"  : "https://github.com/Fertogo/elections"
+                    },
+                ]
+            }
+        ]
+      },
+      {
         "year" : "2016",
         "entries" : [
             {
