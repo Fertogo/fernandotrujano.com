@@ -7,6 +7,22 @@ controller('notesController', function($scope) {
           "id" : "cs",
           "courses" : [
             {
+              "name" : "Computer Systems Security",
+              "number" : "6.858",
+              "id" : "6858",
+
+              "school":"MIT",
+              "schoolLink" : "http://mit.edu",
+              "professor" : "Nickolai Zeldovich",
+              "professorLink" : "https://people.csail.mit.edu/nickolai/",
+              "textbook" : "",
+              "textbookLink" : "",
+
+              "bgimg" : "6858.png",
+              "notes" : "6.858.pdf",
+              "notesSize" : "11.7 MB"
+            },
+            {
               "name" : "Computer and Network Security",
               "number" : "6.857",
               "id" : "6857",
@@ -55,6 +71,22 @@ controller('notesController', function($scope) {
               "notesSize" : "8.1 MB"
             },
             {
+              "name" : "Machine Learning",
+              "number" : "6.036",
+              "id" : "6036",
+
+              "school":"MIT",
+              "schoolLink" : "http://mit.edu",
+              "professor" : "Tommi S Jaakkola",
+              "professorLink" : "https://people.csail.mit.edu/tommi/",
+              "textbook" : "Pattern Recognition and Machine Learning",
+              "textbookLink" : "https://www.goodreads.com/book/show/55881.Pattern_Recognition_and_Machine_Learning",
+
+              "bgimg" : "6036.png",
+              "notes" : "6.036.pdf",
+              "notesSize" : "13.1 MB"
+            },
+            {
               "name" : "Artificial Intelligence",
               "number" : "6.034",
               "id" : "6034",
@@ -85,6 +117,22 @@ controller('notesController', function($scope) {
               "bgimg" : "602.png",
               "notes" : "6.02.pdf",
               "notesSize" : "5.4 MB"
+            },
+            {
+              "name" : "Computation Structures",
+              "number" : "6.004",
+              "id" : "6004",
+
+              "school":"MIT",
+              "schoolLink" : "https://mit.edu",
+              "professor" : "Christopher J. Terman",
+              "professorLink" : "http://people.csail.mit.edu/cjt/",
+              "textbook" : "",
+              "textbookLink" : "",
+
+              "bgimg" : "6004.png",
+              "notes" : "6.004.pdf",
+              "notesSize" : "2.8 MB"
             },
             {
               "name" : "Circuits and Electronics",
@@ -174,6 +222,22 @@ controller('notesController', function($scope) {
               "bgimg" : "1802.jpg",
               "notes" : "18.02.pdf",
               "notesSize" : "15.7 MB"
+            },
+            {
+              "name" : "Calculus BC",
+              "number" : "AP",
+              "id" : "calcBC",
+
+              "school":"Stratford High School",
+              "schoolLink" : "http://ssh.springbranchisd.edu",
+              "professor" : "Jessica Segraves",
+              "professorLink" : "#",
+              "textbook" : "",
+              "textbookLink" : "#",
+
+              "bgimg" : "CalcBC.png",
+              "notes" : "CalcBC.pdf",
+              "notesSize" : "13.7 MB"
             },
             {
               "name" : "Algebra II",
