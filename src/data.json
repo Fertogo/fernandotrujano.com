@@ -1,5 +1,5 @@
 {
-    "summary" : "I am a full stack engineer and a senior at MIT studying Computer Science.",
+    "summary" : "I am a full stack engineer and a masters student at MIT.",
 
     //Maybe
         //Zoid
@@ -233,6 +233,22 @@
     ],
     "education" : [
       {
+        "year" : "2016-2017",
+        "entries": [
+            {
+                "title" : "Massachusetts Institute of Technology",
+                "description" : "Systems Concentration. Doing research in AR and VR at the Media Lab.",
+                "languages" : ["Class of 2018"],
+                "imageUrl" : "img/mit.png",
+                "links" : [
+                    {
+                        "name" : "Masters in Engineering",
+                    }
+                ]
+            }
+        ]
+      },
+      {
         "year" : "2013-2017",
         "entries": [
             {
@@ -248,6 +264,7 @@
             }
         ]
       },
+
     ],
     "work" : [
       {
