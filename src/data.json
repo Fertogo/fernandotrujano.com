@@ -1,5 +1,5 @@
 {
-    "summary" : "I am a full stack engineer and a masters student at MIT.",
+    "summary" : "I am a full stack engineer and software developer at Google.",
 
     //Maybe
         //Zoid
@@ -10,6 +10,22 @@
       {
         "year" : "2017",
         "entries" : [
+            {
+                "title" : "Mathland - Play with Math in Mixed Reality",
+                "description" : "We built a Mixed Reality application that augments the physical world with interactive mathematical concepts and annotations. Using Mathland, people can collaboratively explore, experience and experiment with mathematical phenomena in their real, physical environments using tangible objects. \n Mathland has been featured at the 2018 MIT Festival of Learning and will be demoed at CHI 2018 in Montréal. ",
+                "languages" : ["Augmented Reality", "Hololens", "Unity", "C#"],
+                "imageUrl" : "img/mathland.png",
+                "links" : [
+                    {
+                        "name" : "Website",
+                        "url" : "http://fluid.media.mit.edu/projects/mathland"
+                    },
+                    {
+                        "name" : "Video",
+                        "url"  : "https://vimeo.com/237324812"
+                    },
+                ]
+            },
             {
                 "title" : "Cryptographically Secure voting for the MIT Community",
                 "description" : "Most voting systems at MIT lack the basic security properties of a desirable voting system such as privacy and verifiability. I have implemented a cryptographically secure voting system tailored to the MIT community that provides, among other things, full voter anonymity and individual and third party election verifiability. This system is secure against internal and external malicious parties. No party, including the election organizer will be able to falsely modify the results of the election.",
@@ -89,7 +105,7 @@
             {
                 "title" : "Custom Workout Timer",
                 "description" :
-                    "This Pebble app allows you to easily create custom interval timers (with names) for your workouts.The Pebble will time you and alert you when it's time to change moves based on your own workout program. Example: Plank for 2 minutes, pushups for 45 seconds... etc.\n The app consists of a Pebble side C code that request moves from the phone app (writen in JS). The online workout manager uses a combination of HTML/CSS, JS and Node.js to allow users to enter workouts from their phone or computer. \nThere are currently over 10,000 people using this app in more than 140 countries around the world.",
+                    "This Pebble app allows you to easily create custom interval timers (with names) for your workouts.The Pebble will time you and alert you when it's time to change moves based on your own workout program. Example: Plank for 2 minutes, pushups for 45 seconds... etc.\n The app consists of a Pebble side C code that requests moves from the phone app (writen in JS). The online workout manager uses a combination of HTML/CSS, JS and Node.js to allow users to enter workouts from their phone or computer. \nThe app was used by over 12,000 people in more than 150 countries around the world. Collectively, users uploaded over 80 days worth of workouts and worked out for more than 230 days!",
                 "languages" : ["C","JS","HTML","CSS","Node.js"],
                 "links" : [
                     {
@@ -237,12 +253,13 @@
         "entries": [
             {
                 "title" : "Massachusetts Institute of Technology",
-                "description" : "Systems Concentration. Doing research in AR and VR at the Media Lab.",
+                "description" : "Systems Concentration. Research at the Media Lab focusing on 'Creating Novel Mixed Reality Experiences using exising sensors and peripherals'",
                 "languages" : ["Class of 2018"],
                 "imageUrl" : "img/mit.png",
                 "links" : [
                     {
                         "name" : "Masters in Engineering",
+                        "url"  : "https://credentials.mit.edu/certificate/320509e3520953d4ac9da589475dd26c"
                     }
                 ]
             }
@@ -253,7 +270,7 @@
         "entries": [
             {
                 "title" : "Massachusetts Institute of Technology",
-                "description" : "Relevant Coursework: \n6.858 - Computer Systems Security \n6.857 - Computer and Network Security \n6.036 - Machine Learning \n6.835 - Intelligent Multimodal User Interfaces \n6.033 - Computer Systems Engineering \n6.828 - Operating Systems Engineering  \n6.813 - UI Design and Implementation \n6.170 - Software studio \n6.034 - Artificial Intelligence \n6.046 - Design and Analysis of Algorithms \n6.004 - Computational Structures\n6.006 - Intro to algorithms\n6.005 - Elements of software construction \n6.002 - Circuits and Electronics \n6.041 - Probability \n6.042 - Mathematics for Computer Science\n6.02   - Digital Communications\n6.01 - Intro to Electrical Engineering and Computer Science",
+                "description" : "Relevant Coursework: \n6.858 - Computer Systems Security \n6.857 - Computer and Network Security \n6.036 - Machine Learning \n6.835 - Intelligent Multimodal User Interfaces \n6.033 - Computer Systems Engineering \n6.828 - Operating Systems Engineering  \n6.813 - UI Design and Implementation \n6.170 - Software studio \n6.034 - Artificial Intelligence \n 6.041 Probabilistic Systems Analysis \n 6.008 - Inference \n6.046 - Design and Analysis of Algorithms \n6.004 - Computational Structures\n6.006 - Intro to algorithms\n6.005 - Elements of software construction \n6.002 - Circuits and Electronics \n6.041 - Probability \n6.042 - Mathematics for Computer Science\n6.02   - Digital Communications\n6.01 - Intro to Electrical Engineering and Computer Science",
                 "languages" : ["Class of 2017"],
                 "imageUrl" : "img/mit.png",
                 "links" : [
