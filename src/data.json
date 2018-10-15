@@ -12,10 +12,14 @@
         "entries" : [
             {
                 "title" : "Mathland - Play with Math in Mixed Reality",
-                "description" : "We built a Mixed Reality application that augments the physical world with interactive mathematical concepts and annotations. Using Mathland, people can collaboratively explore, experience and experiment with mathematical phenomena in their real, physical environments using tangible objects. \n Mathland has been featured at the 2018 MIT Festival of Learning and will be demoed at CHI 2018 in Montréal. ",
+                "description" : "We built a Mixed Reality application that augments the physical world with interactive mathematical concepts and annotations. Using Mathland, people can collaboratively explore, experience and experiment with mathematical phenomena in their real, physical environments using tangible objects. \n Mathland has been featured at the 2018 MIT Festival of Learning, demoed at CHI 2018, and published to iLRN 2018. ",
                 "languages" : ["Augmented Reality", "Hololens", "Unity", "C#"],
                 "imageUrl" : "img/mathland.png",
                 "links" : [
+                    {
+                        "name" : "Paper",
+                        "url" : "https://link.springer.com/chapter/10.1007/978-3-319-93596-6_9"
+                    },
                     {
                         "name" : "Website",
                         "url" : "http://fluid.media.mit.edu/projects/mathland"
