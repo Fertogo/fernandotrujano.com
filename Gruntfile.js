@@ -78,7 +78,7 @@ module.exports = function(grunt) {
       },
       pages: {
         files: ['src/*.hbs', 'src/partials/*.hbs', 'src/*.json'],
-        tasks: ['compile-handlebars']
+        tasks: ['clean:handlebars', 'compile-handlebars']
       }
     },
 
@@ -108,7 +108,13 @@ module.exports = function(grunt) {
         base: 'build'
       },
       src: ['**']
+    }, 
+
+    clean: {
+      handlebars : ["build/index.html"],
+      build : ["build/"]
     }
+    
 
   });
 
@@ -121,7 +127,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-gh-pages');
+  grunt.loadNpmTasks('grunt-contrib-clean'); 
 
-  grunt.registerTask('default', ['concat', 'copy','copy:js', 'sass','compile-handlebars', 'watch']);
-  grunt.registerTask('deploy', ['concat', 'uglify', 'sass', 'cssmin', 'compile-handlebars','imagemin','copy:notes', 'gh-pages']);
+  grunt.registerTask('default', ['clean:build', 'concat', 'copy','copy:js', 'sass','compile-handlebars', 'watch']);
+  grunt.registerTask('deploy', ['clean:build', 'concat', 'uglify', 'sass', 'cssmin', 'compile-handlebars','imagemin','copy:notes', 'gh-pages']);
 };
