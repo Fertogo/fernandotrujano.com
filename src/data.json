@@ -11,6 +11,26 @@
         "year" : "2017",
         "entries" : [
             {
+                "title" : "ARPiano - Efficient Music Learning with AR",
+                "description" : "ARPiano provides a framework for extending a physical piano using augmented reality. ARPiano is able to precisely locate a physical keyboard in order to overlay various objects around the keyboard and on individual keys. This framework is extended through various components that provide key labling, note visualizations, chord detection/suggestions and an intuitive, guitar-hero style tutorial mode to learn any MIDI song. \n ARPiano was presented at ARIA 2018, iLRN 2018 and was published to ICITL 2018, where it won the best paper award.",
+                "languages" : ["Augmented Reality", "Hololens", "Unity", "C#"],
+                "imageUrl" : "img/arpiano.jpg",
+                "links" : [
+                    {
+                        "name" : "Paper",
+                        "url" : "https://link.springer.com/chapter/10.1007%2F978-3-319-99737-7_1"
+                    },
+                    {
+                        "name" : "Presentation",
+                        "url" : "https://www.youtube.com/watch?v=24OV1v0ZXkI"
+                    },
+                    {
+                        "name" : "Podcast",
+                        "url"  : "https://www.podomatic.com/podcasts/versatilist/episodes/2018-11-11T16_23_54-08_00"
+                    },
+                ]
+            },
+            {
                 "title" : "Mathland - Play with Math in Mixed Reality",
                 "description" : "We built a Mixed Reality application that augments the physical world with interactive mathematical concepts and annotations. Using Mathland, people can collaboratively explore, experience and experiment with mathematical phenomena in their real, physical environments using tangible objects. \n Mathland has been featured at the 2018 MIT Festival of Learning, demoed at CHI 2018, and published to iLRN 2018. ",
                 "languages" : ["Augmented Reality", "Hololens", "Unity", "C#"],
@@ -264,6 +284,10 @@
                     {
                         "name" : "Masters in Engineering",
                         "url"  : "https://credentials.mit.edu/certificate/320509e3520953d4ac9da589475dd26c"
+                    }, 
+                    {
+                        "name" : "Thesis",
+                        "url"  : "https://dspace.mit.edu/handle/1721.1/119558"
                     }
                 ]
             }

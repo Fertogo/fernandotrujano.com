@@ -157,9 +157,6 @@ section {
     margin-right: 5px;
   }
   .divider{
-    border-top-style: solid;
-    border-color: rgb(1, 94, 189);
-    border-width: 1px;
     height: 0px;
     display: block;
     padding-bottom: 6px;
@@ -191,7 +188,7 @@ section {
   .project-description{
     width: initial;
     font-size: 1.2em;
-    padding: 10px;
+    padding: 0px 10px 10px 10px;
   }
   .project-content{
     margin: 0 auto;
