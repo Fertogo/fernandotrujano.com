@@ -144,9 +144,13 @@ section {
 }
 
 .project{
-  margin-top: 10px;
+  margin-top: 20px;
   background-color: rgba(38, 121, 205, 0.4);
   height: auto;
+  display:flex;
+  align-items: flex-start;
+  flex-flow:column;
+
   .links{
     float: right;
     background-color: rgba(220, 220, 220, 1);
@@ -181,19 +185,20 @@ section {
   }
   img {
     width: 100%;
-    float: left;
     margin-bottom: -3px;
-
+    order: 1;
   }
   .project-description{
     width: initial;
     font-size: 1.2em;
     padding: 0px 10px 10px 10px;
+    order: 3;
+    float: right;
   }
-  .project-content{
+  .project-header{
     margin: 0 auto;
+    order: 2;
   }
-
 }
 
 .fa {
@@ -224,18 +229,6 @@ section {
 
 }
 
-@media only screen and (min-width: 600px) {
-  .project {
-    .project-description {
-      width: calc(100% - 315px);
-      float: right;
-    }
-    img {
-      width: 295px;
-    }
-  }
-}
-
 @media only screen and (min-width: 750px) {
 
   #main {
@@ -251,13 +244,19 @@ section {
   }
 
   .project {
+    flex-flow: wrap;
     .project-description {
       width: calc(100% - 415px);
       float: right;
+      order: 3;
     }
     img {
       width: 395px;
       float: left;
+      order: 2;
+    }
+    .project-header { 
+      order: 1;
     }
   }
 
