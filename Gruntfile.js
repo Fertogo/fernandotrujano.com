@@ -46,9 +46,11 @@ module.exports = function(grunt) {
               {expand: true, src: ['img/**'], dest: 'build/'},
             ]
         },
-        notes : {
+        resources : {
           files : [
             {expand: true, src: ['notes/**'], dest: 'build/'},
+            {expand: true, src: ['archive/**'], dest: 'build/'},
+            {expand: true, src: ['docs/**'], dest: 'build/'},
           ]
         }
     },
@@ -130,5 +132,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean'); 
 
   grunt.registerTask('default', ['clean:build', 'concat', 'copy','copy:js', 'sass','compile-handlebars', 'watch']);
-  grunt.registerTask('deploy', ['clean:build', 'concat', 'uglify', 'sass', 'cssmin', 'compile-handlebars','imagemin','copy:notes', 'gh-pages']);
+  grunt.registerTask('deploy', ['clean:build', 'concat', 'uglify', 'sass', 'cssmin', 'compile-handlebars','imagemin','copy:resources', 'gh-pages']);
 };
