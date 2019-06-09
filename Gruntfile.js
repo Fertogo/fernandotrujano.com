@@ -51,6 +51,8 @@ module.exports = function(grunt) {
             {expand: true, src: ['notes/**'], dest: 'build/'},
             {expand: true, src: ['archive/**'], dest: 'build/'},
             {expand: true, src: ['docs/**'], dest: 'build/'},
+            {src: ['CNAME'], dest: 'build/'},
+
           ]
         }
     },
