@@ -7,7 +7,6 @@ module.exports = function(grunt) {
     concat: {
         build: {
             src: [
-                'bower_components/jquery/dist/jquery.min.js',
                 'src/js/stick-anything.js',
                 'src/js/main.js'
             ],
