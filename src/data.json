@@ -12,7 +12,7 @@
         "entries" : [
             {
                 "title" : "ARPiano - Efficient Music Learning with AR",
-                "description" : "ARPiano provides a framework for extending a physical piano using augmented reality. ARPiano is able to precisely locate a physical keyboard in order to overlay various objects around the keyboard and on individual keys. This framework is extended through various components that provide key labling, note visualizations, chord detection/suggestions and an intuitive, guitar-hero style tutorial mode to learn any MIDI song. \n ARPiano was presented at ARIA 2018, iLRN 2018 and was published to ICITL 2018, where it won the best paper award.",
+                "description" : "ARPiano provides a framework for extending a physical piano using augmented reality. ARPiano is able to precisely locate a physical keyboard in order to overlay various objects around the keyboard and on individual keys. This framework is extended through various components that provide key labling, note visualizations, chord detection/suggestions and an intuitive, guitar-hero style tutorial mode to learn any MIDI song. <br> ARPiano was presented at ARIA 2018, iLRN 2018 and was published to ICITL 2018, where it won the best paper award.",
                 "languages" : ["Augmented Reality", "Hololens", "Unity", "C#"],
                 "imageUrl" : "img/arpiano.jpg",
                 "links" : [
@@ -32,7 +32,7 @@
             },
             {
                 "title" : "Mathland - Play with Math in Mixed Reality",
-                "description" : "We built a Mixed Reality application that augments the physical world with interactive mathematical concepts and annotations. Using Mathland, people can collaboratively explore, experience and experiment with mathematical phenomena in their real, physical environments using tangible objects. \n Mathland has been featured at the 2018 MIT Festival of Learning, demoed at CHI 2018, and published to iLRN 2018. ",
+                "description" : "We built a Mixed Reality application that augments the physical world with interactive mathematical concepts and annotations. Using Mathland, people can collaboratively explore, experience and experiment with mathematical phenomena in their real, physical environments using tangible objects. <br> Mathland has been featured at the 2018 MIT Festival of Learning, demoed at CHI 2018, and published to iLRN 2018. ",
                 "languages" : ["Augmented Reality", "Hololens", "Unity", "C#"],
                 "imageUrl" : "img/mathland.png",
                 "links" : [
@@ -42,11 +42,7 @@
                     },
                     {
                         "name" : "Website",
-                        "url" : "http://fluid.media.mit.edu/projects/mathland"
-                    },
-                    {
-                        "name" : "Video",
-                        "url"  : "https://vimeo.com/237324812"
+                        "url" : "https://www.media.mit.edu/projects/mathland/overview/"
                     },
                 ]
             },
@@ -114,28 +110,18 @@
             {
                 "title" : "Asterisks",
                 "description" :
-                    "Asterisks allows you to lend your Internet accounts to friends without giving away your username or password. Maintain complete control over who can access your account and when, even allowing you to kick friends off your account when you'd like to use it yourself. \n Asterisks spawned from LinkedIn''s bay area intern hackathon, where our team took home 1st place.",
+                    "Asterisks allows you to lend your Internet accounts to friends without giving away your username or password. Maintain complete control over who can access your account and when, even allowing you to kick friends off your account when you'd like to use it yourself. <br> Asterisks spawned from LinkedIn''s bay area intern hackathon, where our team took home 1st place.",
                 "languages" : ["Node.js","Express","HTML","CSS","PHP"],
-                "links" : [
-                    {
-                        "name" : "Homepage",
-                        "url" : "http://asterisks.io"
-                    },
-
-                ],
+                "links" : [],
                 "imageUrl" : "img/asterisks.png"
 
             },
             {
                 "title" : "Custom Workout Timer",
                 "description" :
-                    "This Pebble app allows you to easily create custom interval timers (with names) for your workouts.The Pebble will time you and alert you when it's time to change moves based on your own workout program. Example: Plank for 2 minutes, pushups for 45 seconds... etc.\n The app consists of a Pebble side C code that requests moves from the phone app (writen in JS). The online workout manager uses a combination of HTML/CSS, JS and Node.js to allow users to enter workouts from their phone or computer. \nThe app was used by over 12,000 people in more than 150 countries around the world. Collectively, users uploaded over 80 days worth of workouts and worked out for more than 230 days!",
+                    "This Pebble app allows you to easily create custom interval timers (with names) for your workouts.The Pebble will time you and alert you when it's time to change moves based on your own workout program. Example: Plank for 2 minutes, pushups for 45 seconds... etc.<br> The app consists of a Pebble side C code that requests moves from the phone app (writen in JS). The online workout manager uses a combination of HTML/CSS, JS and Node.js to allow users to enter workouts from their phone or computer. <br>The app was used by over 12,000 people in more than 150 countries around the world. Collectively, users uploaded over 80 days worth of workouts and worked out for more than 230 days!",
                 "languages" : ["C","JS","HTML","CSS","Node.js"],
                 "links" : [
-                    {
-                        "name" : "App Store",
-                        "url" : "https://apps.getpebble.com/applications/53b8f8d4c09b06bcc7000007"
-                    },
                     {
                         "name" : "Source",
                         "url" : "https://github.com/Fertogo/Pebble-workout-timer"
@@ -151,10 +137,6 @@
                 "languages" : ["JS","HTML","CSS"],
                 "imageUrl" : "img/7K.png",
                 "links" : [
-                    {
-                        "name" : "Demo",
-                        "url" : "http://simmons-dev.mit.edu/7Kreator/"
-                    },
                     {
                         "name" : "Source",
                         "url" : "https://github.com/Fertogo/7Kreator"
@@ -205,12 +187,7 @@
                 "description" : "MIT sends you their admissions letter in a cool silver tube, they also challenge you to hack it and do something cool with it. I made a POV (Persistence of Vision) display that can show different messages when you move it back and forth..",
                 "languages" : ["Arduino"],
                 "imageUrl" : "img/tubehack.jpg",
-                "links" : [
-                    {
-                        "name" : "Pictures",
-                        "url" : "http://hackthetubes17.tumblr.com/post/45298164956/from-fernando-trujano-subject-fernando"
-                    }
-                ]
+                "links" : []
 
             },
             {
@@ -298,7 +275,7 @@
         "entries": [
             {
                 "title" : "Massachusetts Institute of Technology",
-                "description" : "Relevant Coursework: \n6.858 - Computer Systems Security \n6.857 - Computer and Network Security \n6.036 - Machine Learning \n6.835 - Intelligent Multimodal User Interfaces \n6.033 - Computer Systems Engineering \n6.828 - Operating Systems Engineering  \n6.813 - UI Design and Implementation \n6.170 - Software studio \n6.034 - Artificial Intelligence \n 6.041 Probabilistic Systems Analysis \n 6.008 - Inference \n6.046 - Design and Analysis of Algorithms \n6.004 - Computational Structures\n6.006 - Intro to algorithms\n6.005 - Elements of software construction \n6.002 - Circuits and Electronics \n6.041 - Probability \n6.042 - Mathematics for Computer Science\n6.02   - Digital Communications\n6.01 - Intro to Electrical Engineering and Computer Science",
+                "description" : "Relevant Coursework: <br>6.858 - Computer Systems Security <br>6.857 - Computer and Network Security <br>6.036 - Machine Learning <br>6.835 - Intelligent Multimodal User Interfaces <br>6.033 - Computer Systems Engineering <br>6.828 - Operating Systems Engineering  <br>6.813 - UI Design and Implementation <br>6.170 - Software studio <br>6.034 - Artificial Intelligence <br> 6.041 Probabilistic Systems Analysis <br> 6.008 - Inference <br>6.046 - Design and Analysis of Algorithms <br>6.004 - Computational Structures<br>6.006 - Intro to algorithms<br>6.005 - Elements of software construction <br>6.002 - Circuits and Electronics <br>6.041 - Probability <br>6.042 - Mathematics for Computer Science<br>6.02   - Digital Communications<br>6.01 - Intro to Electrical Engineering and Computer Science",
                 "languages" : ["Class of 2017"],
                 "imageUrl" : "img/mit.png",
                 "links" : [
@@ -370,19 +347,14 @@
         "entries": [
             {
                 "title" : "MediaLab - Undergraduate Researcher",
-                "description" : "UROP in Changing Places group. Focused on LightByte, an interactive sun pixel display with over 400 individually controlled shutters\nMaintained the current LightByte system, expanded the Andorid application, and implemented server connections/real-time streaming features to support remote interactions through a web interface\nProduced websites, graphics and videos to showcase various research projects",
+                "description" : "UROP in Changing Places group. Focused on LightByte, an interactive sun pixel display with over 400 individually controlled shutters<br>Maintained the current LightByte system, expanded the Andorid application, and implemented server connections/real-time streaming features to support remote interactions through a web interface<br>Produced websites, graphics and videos to showcase various research projects",
                 "languages" : ["Android","Java","WebRTC", "HTML", "CSS", "JS"],
                 "imageUrl" : "img/medialab.png",
-                "links" : [
-                    {
-                        "name" : "More Info",
-                        "url" : "http://augmentingnature.com/"
-                    }
-                ]
+                "links" : []
             },
             {
                 "title" : "MIT- 6.01 Undergraduate Lab Assistant",
-                "description" : "Worked with staff/professors to prepare design labs for 6.01 - Intro to EECS\nAssisted students with basic OOP and algorithm concepts and helped debug circuits",
+                "description" : "Worked with staff/professors to prepare design labs for 6.01 - Intro to EECS<br>Assisted students with basic OOP and algorithm concepts and helped debug circuits",
                 "languages" : ["Python"],
                 "imageUrl" : "img/miteecs.png",
             }
