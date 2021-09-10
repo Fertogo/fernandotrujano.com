@@ -1,5 +1,5 @@
 {
-    "summary" : "I am a full stack engineer and software developer at Google.",
+    "summary" : "I am a full stack engineer and software developer at Stripe.",
 
     //Maybe
         //Zoid
@@ -289,6 +289,23 @@
 
     ],
     "work" : [
+      {
+        "year" : "2018-2021",
+        "entries": [
+            {
+                "title" : "Google - Software Engineer",
+                "description" : "Full stack software engineer on the Google News team.",
+                "languages" : [],
+                "imageUrl" : "img/google.png",
+                "links" : [
+                    {
+                        "name" : "Company Site",
+                        "url"  : "http://news.google.com/"
+                    }
+                ]
+            },
+        ]
+      },
       {
         "year" : "2016",
         "entries": [
