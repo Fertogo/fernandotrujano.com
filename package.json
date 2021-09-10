@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "grunt-contrib-imagemin": "^1.0.0",
-    "grunt-sass": "^1.2.1"
+    "grunt-sass": "^3.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,15 +24,16 @@
   },
   "homepage": "https://github.com/Fertogo/fernandotrujano.com",
   "devDependencies": {
-    "grunt": "^0.4.5",
+    "grunt": "^1.4.1",
     "grunt-compile-handlebars": "^2.0.0",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-concat": "^0.5.1",
-    "grunt-contrib-copy": "^0.8.2",
-    "grunt-contrib-cssmin": "^0.13.0",
-    "grunt-contrib-uglify": "^0.9.1",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-gh-pages": "^1.1.0",
-    "grunt-sass": "^1.0.0"
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-uglify": "^5.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-gh-pages": "^4.0.0",
+    "grunt-sass": "^3.1.0",
+    "node-sass": "^6.0.1"
   }
 }
