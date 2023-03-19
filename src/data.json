@@ -112,7 +112,12 @@
                 "description" :
                     "Asterisks allows you to lend your Internet accounts to friends without giving away your username or password. Maintain complete control over who can access your account and when, even allowing you to kick friends off your account when you'd like to use it yourself. <br> Asterisks spawned from LinkedIn''s bay area intern hackathon, where our team took home 1st place.",
                 "languages" : ["Node.js","Express","HTML","CSS","PHP"],
-                "links" : [],
+                "links" : [
+                    {
+                        "name" : "Demo", 
+                        "url" : "https://vimeo.com/135318579?embedded=true&source=video_title&owner=1179889"
+                    }
+                ],
                 "imageUrl" : "img/asterisks.png"
 
             },
